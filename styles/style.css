@@ -1,0 +1,73 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden; /* Prevents horizontal scrolling */
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    align-content: center;
+
+}
+
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    width: 100%;
+
+}
+
+.logo{
+    width: 40px;
+    height: auto;
+    padding-left: 40px;
+}
+
+.nav{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between; 
+    width: 210px;
+    padding-right: 40px;
+    color: rgba(84, 18, 62, 1);
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.ilustration{
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    right: 0;
+    width: 420px;
+    height: auto;
+    pointer-events: none;
+}
+
+.jona-borger{
+    color: rgba(255, 111, 75, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Amatic SC';
+    font-size: 120px;
+    mix-blend-mode: ; 
+
+}
+
